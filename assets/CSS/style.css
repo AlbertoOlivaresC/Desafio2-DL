@@ -1,0 +1,64 @@
+.banner{
+    height: 15em;
+    background-image: url("/desafio2-alberto-olivares/assets/images/banner-principal.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 150px;
+    padding-top: 5em;
+}
+
+.banner h1{
+    display: inline-block;
+    color: white;
+    font-size: 5em;
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner h1 strong{
+    color:rgb(31, 114, 238);
+}
+
+.banner p{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Merriweather', serif;
+}
+
+.productos{
+    width: 80%;
+    /*por lo visto autámicamente otorga margin para centrar
+    toma el espacio disponible de izq y derecha de forma simétrica
+    por ende lo centra
+
+    No funciona en:border:
+    -floted and inline elements y por si mismo
+    -ansolute and fixed positioned elements
+    */
+    margin: auto;
+}
+
+.productos td{
+    width: 50%;
+    padding: 2em;
+}
+
+.productos img{
+    width: 100%;
+}
+
+.productos p{
+    font-size: 1rem;
+    font-family: 'Merriweather', serif;;
+}
+
+.footer{
+    height: 6rem;
+    line-height: 6rem;
+    background-color: rgb(88, 31, 233);
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
