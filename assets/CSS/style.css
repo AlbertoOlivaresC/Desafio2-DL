@@ -1,6 +1,6 @@
 .banner{
     height: 15em;
-    background-image: url("assets/images/banner-principal.png");
+    background-image: url("/desafio2-alberto-olivares/assets/images/banner-principal.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
